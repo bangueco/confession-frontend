@@ -6,6 +6,12 @@ const getAll = () => {
   return axios.get(`${baseURL}/api/confessions`).then(response => response.data)
 }
 
+const sendConfession = (msg) => {
+  const confessionObj = { message: msg }
+  return axios.post(`${baseURL}/api/confessions`, confessionObj).then(response => response.data)
+}
+
 export default {
-  getAll
+  getAll,
+  sendConfession
 }
