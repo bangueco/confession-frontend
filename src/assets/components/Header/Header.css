@@ -1,0 +1,9 @@
+#header {
+  background-color: red;
+  text-align: center;
+  padding: 10px;
+}
+
+#header > div {
+  font-size: 3rem;
+}
