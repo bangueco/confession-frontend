@@ -1,9 +1,9 @@
 #header {
-  background-color: red;
-  text-align: center;
+  background-color: #2C3333;
   padding: 10px;
 }
 
 #header > div {
+  color: white;
   font-size: 3rem;
 }
