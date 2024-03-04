@@ -2,8 +2,10 @@ const ConfessionCard = ({id, message, confession_number}) => {
   const card = {
     height: '80px',
     padding: '10px',
-    backgroundColor: 'green',
-    borderRadius: '10px'
+    backgroundColor: '#395B64',
+    color: 'white',
+    borderRadius: '10px',
+    boxShadow: '10px, 20px, 500px #888888'
   }
 
   return (
