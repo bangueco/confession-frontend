@@ -1,5 +1,6 @@
 import { useState } from "react"
 import confessions from "../../services/confessions"
+import './SendConfession.css'
 
 const SendConfession = (props) => {
   
