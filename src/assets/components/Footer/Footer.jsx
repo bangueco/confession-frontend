@@ -4,7 +4,7 @@ const Footer = () => {
   return(
     <>
       <footer id="footer">
-        <h1>simple web app by: bangueco</h1>
+        <p>Simple Web App By <span><a className="link" href="http://github.com/bangueco" target='_blank'>bangueco</a></span></p>
       </footer>
     </>
   )
